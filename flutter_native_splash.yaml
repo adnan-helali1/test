@@ -1,0 +1,15 @@
+# Dar Nasri native splash — single burgundy everywhere.
+# Device-sampled outer splash: #380000
+# Android 12 icon is transparent; circle fill comes only from icon_background_color.
+flutter_native_splash:
+  color: "#380000"
+  image: assets/images/dar_nassri_splash_mark.png
+  android: true
+  ios: true
+  web: false
+  fullscreen: false
+
+  android_12:
+    color: "#380000"
+    image: assets/images/dar_nassri_splash_icon.png
+    icon_background_color: "#380000"
